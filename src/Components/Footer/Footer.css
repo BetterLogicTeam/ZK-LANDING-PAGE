@@ -1,0 +1,36 @@
+.footer_main{
+    background-color: black !important;
+    padding: 0px 10px !important;
+    
+}
+
+.footer_header{
+    font-weight: 600;
+    font-size: 1.0625rem;
+    line-height: 1.4375rem;
+    letter-spacing: 1px;
+    color: white !important;
+    margin-bottom: 1.5625rem
+}
+
+.footer_links{
+    margin-bottom: 0.625rem;
+  
+        color: hsla(0,0%,100%,.6) !important;
+        text-decoration: none !important;
+        display: block;
+        transition: color .2s ease-in-out;
+}
+
+.last_copyright{
+    border-top: 2px solid hsla(0,0%,100%,.2);
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.last_copyright  p {
+    font-size: 1.0625rem;
+    line-height: 1.4375rem;
+    letter-spacing: 1px;
+    color: white !important;
+}

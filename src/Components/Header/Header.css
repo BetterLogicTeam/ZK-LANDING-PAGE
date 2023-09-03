@@ -1,0 +1,45 @@
+.navBar_main{
+    color: #fff;
+    height: 50px !important;
+    /* z-index: 10; */
+    position: sticky !important;
+    top: 0px !important ;
+    background: black !important;
+}
+
+
+.header_links{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+}
+
+.header_links_icons{
+    color: white !important;
+    font-size: 24px !important;
+    cursor: pointer !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .header_links{
+        text-align: center !important;
+    }
+
+    .header_links_icons{
+        text-align: center;
+        display: flex;
+    }
+
+    .mas{
+        display: flex !important;
+       justify-content: center;
+    }
+    .navBar_main{
+        height: auto !important;
+    }
+}

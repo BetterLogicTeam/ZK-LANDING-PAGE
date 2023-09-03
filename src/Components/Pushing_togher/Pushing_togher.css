@@ -1,0 +1,53 @@
+.pushing_to_man{
+    background-color: black !important;
+    padding: 40px 10px !important;
+color: white !important;
+
+}
+
+
+.line_hrv{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.cir{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 3.125rem;
+    height: 3.125rem;
+    
+    background-color: #1e69ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5625rem;
+}
+
+
+.main_psuh
+{
+    font-size: 3rem;
+    line-height: 3.25rem;
+    font-weight: 600;
+    text-align: center ;
+    margin-top: 1rem;
+}
+
+.push_para{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+.soical_name{
+    font-size: 1.0625rem;
+    line-height: 1.4375rem;
+    font-weight: 600;
+    color: white;
+}

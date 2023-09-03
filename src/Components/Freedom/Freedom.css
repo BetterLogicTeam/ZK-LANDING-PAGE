@@ -1,0 +1,45 @@
+.main_freedom{
+    background-color: black;
+    color: white !important;
+    padding: 40px 10px !important;
+}
+
+.content_freedom
+{
+    font-size: 3rem;
+    line-height: 3.25rem;
+    font-weight: 600;
+    color: white !important;
+}
+
+.content_freedom p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.free_right{
+    background-color: #1e69ff;
+    padding: 40px 10px ;
+}
+
+.free_right h6{
+    font-size: 28px !important;
+}
+
+.tanl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.line_baj{
+    background-color: white !important;
+}
+
+.line_table{
+    border-bottom: 1px solid white !important;
+    padding: 1.5rem 0;
+}
+
+.line_tablee{
+    padding: 1.5rem 0;
+}
