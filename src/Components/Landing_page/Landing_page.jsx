@@ -1,7 +1,7 @@
 import React from "react";
-import "./Landing_page.css"
-import {IoIosArrowForward} from "react-icons/io"
-import home from "../Assets/homee.png"
+import "./Landing_page.css";
+import { IoIosArrowForward } from "react-icons/io";
+import home from "../Assets/homee.png";
 
 export default function Landing_page() {
   return (
@@ -9,9 +9,11 @@ export default function Landing_page() {
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-5">
+          
+          
+
             <div className="content_right text-start">
               <svg
-           
                 width="405"
                 height="104"
                 viewBox="0 0 267 67"
@@ -43,22 +45,85 @@ export default function Landing_page() {
                   </clipPath>
                 </defs>
               </svg>
+              <div className="cir mrld">
+              <svg
+                width="21"
+                height="32"
+                viewBox="0 0 21 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1 16.2743L10.2058 12.0915V1L1 16.2743Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2058 12.0918L1 16.2747L10.2058 21.7175V12.0918Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2056 12.0918V21.7175L19.4113 16.2747L10.2056 12.0918Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2056 12.0915L19.4113 16.2743L10.2056 1V12.0915Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2058 23.4653L1 18.0225L10.2058 30.9997V23.4653Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2056 23.4653V30.9997L19.4199 18.0225L10.2056 23.4653Z"
+                  stroke="white"
+                  stroke-width="1.19"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+           
+            <div className="futur">
 
-              <h1>The future-proof zkEVM</h1>
-              <div className="two_btn d-flex align-items-center gap-4 mt-5">
+          
+              <h1 className="ms-3 ms-lg-5" >The future-proof zkEVM</h1>
+              <div className="two_btn d-flex ms-3 ms-lg-5 align-items-center gap-4 mt-5">
                 <button className="bridge_btn">Bridge</button>
                 <button className="start_btn">
-                    <span className="gol"><IoIosArrowForward></IoIosArrowForward></span>
-                    Start building
+                  <span className="gol">
+                    <IoIosArrowForward></IoIosArrowForward>
+                  </span>
+                  Start building
                 </button>
+              </div>
               </div>
             </div>
           </div>
           <div className="col-md-7">
-          <img src={home} alt="" className="img_here" />
-          <div className="avein"></div>
-          
-</div>
+            <img src={home} alt="" className="img_here" />
+            <div className="avein"></div>
+          </div>
         </div>
       </div>
     </div>

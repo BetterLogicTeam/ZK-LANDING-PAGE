@@ -1,7 +1,7 @@
 .navBar_main{
     color: #fff;
     height: 50px !important;
-    /* z-index: 10; */
+    z-index: 10;
     position: sticky !important;
     top: 0px !important ;
     background: black !important;

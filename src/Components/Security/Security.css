@@ -3,3 +3,76 @@
     background-color: black !important;
     
 }
+
+
+.futurrr::before{
+    position: absolute;
+    content: "";
+    background-color: #1e69ff;
+    width: 2px !important;
+    height: 48% ;
+}
+
+
+.adjustment{
+    position: relative;
+    left: -6% !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+
+    .futurrr::before{
+        position: absolute;
+        content: "";
+        background-color: #1e69ff;
+        width: 2px !important;
+        height: 100% ;
+    }
+}
+
+
+
+@media only screen and (min-width:1600px){
+    .futurrr::before{
+        position: absolute;
+        content: "";
+        background-color: #1e69ff;
+        width: 2px !important;
+        height: 30% ;
+    }  
+
+    .adjustment {
+        position: relative;
+        left: -12% !important;
+    }
+}
+
+
+@media (min-width:1400px) and (max-width:1599px){
+    .futurrr::before{
+        position: absolute;
+        content: "";
+        background-color: #1e69ff;
+        width: 2px !important;
+        height: 41% ;
+    } 
+    .adjustment {
+        position: relative;
+        /* left: -12%; */
+        left: -12% !important;
+    }
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1199px){
+    .futurrr::before{
+        position: absolute;
+        content: "";
+        background-color: #1e69ff;
+        width: 2px !important;
+    height: 86% !important;
+    }
+}

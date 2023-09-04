@@ -43,3 +43,21 @@
 .line_tablee{
     padding: 1.5rem 0;
 }
+
+.futurre::before{
+    position: absolute;
+    content: "";
+    width: 2px !important;
+    height: 128% !important;
+    background-color: #1e69ff !important;
+    /* top: 10px ; */
+}
+.futurr::before{
+    position: absolute;
+    content: "";
+   
+    width: 2px !important;
+    height: 100% !important;
+    background-color: #1e69ff !important;
+
+}
